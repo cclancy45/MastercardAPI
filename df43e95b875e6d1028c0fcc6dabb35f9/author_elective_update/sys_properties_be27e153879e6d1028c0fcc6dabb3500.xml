@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Maximum number of inputs for a flow action</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</name>
+        <read_roles/>
+        <suffix>sn_flow_designer.max_action_vars</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:17:59</sys_created_on>
+        <sys_id>be27e153879e6d1028c0fcc6dabb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</sys_name>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_properties_be27e153879e6d1028c0fcc6dabb3500</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:17:59</sys_updated_on>
+        <type>integer</type>
+        <value>50</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=be27e153879e6d1028c0fcc6dabb3500"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</application>
+        <file_path/>
+        <instance_id>eaf217a9dbb61d904d2bac44d49619d6</instance_id>
+        <instance_name>sthorn2demo</instance_name>
+        <name>sys_properties_be27e153879e6d1028c0fcc6dabb3500</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Maximum number of inputs for a flow action</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</name><read_roles/><suffix>sn_flow_designer.max_action_vars</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>Chris.Clancy</sys_created_by><sys_created_on>2023-04-24 18:17:59</sys_created_on><sys_id>be27e153879e6d1028c0fcc6dabb3500</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</sys_name><sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package><sys_policy/><sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope><sys_update_name>sys_properties_be27e153879e6d1028c0fcc6dabb3500</sys_update_name><sys_updated_by>Chris.Clancy</sys_updated_by><sys_updated_on>2023-04-24 18:17:59</sys_updated_on><type>integer</type><value>50</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=be27e153879e6d1028c0fcc6dabb3500"/></record_update>]]></payload>
+        <payload_hash>-815912155</payload_hash>
+        <record_name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</record_name>
+        <reverted_from/>
+        <source>8993259b875e6d1028c0fcc6dabb35a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:18:00</sys_created_on>
+        <sys_id>40472553879e6d1028c0fcc6dabb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b47ca6720000001</sys_recorded_at>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:18:00</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>0847e153859e6d10b828bac36917a408</update_guid>
+        <update_guid_history>0847e153859e6d10b828bac36917a408:-815912155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:19:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>972f84b65c0c4a4ba6774398cdba1021</sys_id>
+        <sys_metadata>be27e153879e6d1028c0fcc6dabb3500</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mastercard_0.sn_flow_designer.max_action_vars</sys_name>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_scope_delete display_value="">9b0d7d3f33fb4bbfa58dcfb0e31410d9</sys_scope_delete>
+        <sys_update_name>sys_properties_be27e153879e6d1028c0fcc6dabb3500</sys_update_name>
+        <sys_update_version display_value="sys_properties_be27e153879e6d1028c0fcc6dabb3500">40472553879e6d1028c0fcc6dabb3527</sys_update_version>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:19:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
