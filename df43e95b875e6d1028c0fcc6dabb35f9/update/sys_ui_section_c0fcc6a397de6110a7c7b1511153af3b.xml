@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Chargeback Details" section_id="c0fcc6a397de6110a7c7b1511153af3b" sys_domain="global" table="x_snc_mastercard_0_mastercom_task" version="3" view="Dispute_Details">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_1</element>
+            <position>0</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6f5ec2eb8792611028c0fcc6dabb3571</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>1</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>635ec2eb8792611028c0fcc6dabb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_code</element>
+            <position>2</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>675ec2eb8792611028c0fcc6dabb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_partial_chargeback</element>
+            <position>3</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6b5ec2eb8792611028c0fcc6dabb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>settlement_date</element>
+            <position>4</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6f5ec2eb8792611028c0fcc6dabb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>installment_fee</element>
+            <position>5</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>635ec2eb8792611028c0fcc6dabb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refund_not_received</element>
+            <position>6</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>675ec2eb8792611028c0fcc6dabb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6b5ec2eb8792611028c0fcc6dabb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>chargeback_type</element>
+            <position>8</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6f5ec2eb8792611028c0fcc6dabb3573</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_indicator</element>
+            <position>9</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>635ec2eb8792611028c0fcc6dabb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_posted_as_purchase</element>
+            <position>10</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>675ec2eb8792611028c0fcc6dabb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>chargeback_message_text</element>
+            <position>11</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6b5ec2eb8792611028c0fcc6dabb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>local_tax_1iva</element>
+            <position>12</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>6f5ec2eb8792611028c0fcc6dabb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>edit_exclusion_code</element>
+            <position>13</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>635ec2eb8792611028c0fcc6dabb3575</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>currency_conversation_assement</element>
+            <position>14</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:47:24</sys_created_on>
+            <sys_id>675ec2eb8792611028c0fcc6dabb3575</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:47:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Chargeback Details</caption>
+            <header>false</header>
+            <name>x_snc_mastercard_0_mastercom_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0fcc6a397de6110a7c7b1511153af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_mastercard_0_mastercom_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+            <sys_update_name>sys_ui_section_c0fcc6a397de6110a7c7b1511153af3b</sys_update_name>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:41:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Dispute Details" name="Dispute_Details">a15c466397de6110a7c7b1511153af9f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

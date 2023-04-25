@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD77047963c81e6110b6d0b9fcbce41d91</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>df43e95b875e6d1028c0fcc6dabb35f9</scope_name>
+        <serialized_content>{"FlowDesigner:FD77047963c81e6110b6d0b9fcbce41d91":{"chargebackId":"String","chargebackId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"chargebackId\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"16a3a531-29c7-4a03-a9c0-8a05ab6bd1fd\"}"}},"FlowDesigner:FD77047963c81e6110b6d0b9fcbce41d91.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"245e7e0c-f03e-4f49-bf4b-5b64a75328a1\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD77047963c81e6110b6d0b9fcbce41d91\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 13:52:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b047963971e6110a7c7b1511153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD77047963c81e6110b6d0b9fcbce41d91</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_complex_object_3b047963971e6110a7c7b1511153af91</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 13:52:27</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

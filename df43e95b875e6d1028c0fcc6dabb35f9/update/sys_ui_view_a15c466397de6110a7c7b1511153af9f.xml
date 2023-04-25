@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Dispute_Details</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 15:38:31</sys_created_on>
+        <sys_id>a15c466397de6110a7c7b1511153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dispute Details</sys_name>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_ui_view_a15c466397de6110a7c7b1511153af9f</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:38:31</sys_updated_on>
+        <title>Dispute Details</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

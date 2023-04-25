@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd5f725eb1d9a611061d0489cd7df2d35</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>df43e95b875e6d1028c0fcc6dabb35f9</scope_name>
+        <serialized_content>{"FlowDesigner:FDd5f725eb1d9a611061d0489cd7df2d35":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd5f725eb1d9a611061d0489cd7df2d35.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"chargebackRefNum\",\"mandatory\":\"false\",\"child_name\":\"chargebackrefnum_child0\",\"uiUniqueId\":\"e23123ba-82cd-4098-a321-c48557952220\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd5f725eb1d9a611061d0489cd7df2d35\",\"child_label\":\"chargebackRefNum_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"6\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"40b7195c-f936-4c67-83e5-a33243674337\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 12:59:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99f725eb979a6110a7c7b1511153af35</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDd5f725eb1d9a611061d0489cd7df2d35</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_complex_object_99f725eb979a6110a7c7b1511153af35</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 13:03:13</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

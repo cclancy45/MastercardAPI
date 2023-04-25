@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mastercom__chargeback_creation</internal_name>
+        <label_cache>[{"name":"55bc9bfb-041d-440e-8233-0b8a80d748c5.chargebackid","label":"1 - Mastercom - Chargeback Creation➛chargebackID","reference_display":"chargebackID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"7f4db47a-efb8-451c-9397-05fce7f2ff94"}},{"name":"subflow.claimid","label":"Input➛claimId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2c639ef3-bdb3-45e8-832b-0f34fa8b4573","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Mastercom - Chargeback Creation</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:52:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffb18aab975e6110a7c7b1511153af70</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Mastercom - Chargeback Creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_hub_flow_ffb18aab975e6110a7c7b1511153af70</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:05:08</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ffb18aab975e6110a7c7b1511153af70^sys_idNOT INfbb18aab975e6110a7c7b1511153af71"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ffb18aab975e6110a7c7b1511153af70</id>
+        <name>Mastercom - Chargeback Creation</name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:52:15</sys_created_on>
+        <sys_id>fbb18aab975e6110a7c7b1511153af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 14:52:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fbb18aab975e6110a7c7b1511153af71"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ffb18aab975e6110a7c7b1511153af70^sys_idNOT INea42422f975e6110a7c7b1511153af8d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Mastercom - Chargeback Creation">a8f186eb975e6110a7c7b1511153af76</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mastercom - Chargeback Creation">ffb18aab975e6110a7c7b1511153af70</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:54:37</sys_created_on>
+        <sys_id>ea42422f975e6110a7c7b1511153af8d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:05:08</sys_updated_on>
+        <ui_id>55bc9bfb-041d-440e-8233-0b8a80d748c5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea42422f975e6110a7c7b1511153af8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea42422f975e6110a7c7b1511153af8d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:54:37</sys_created_on>
+        <sys_id>a242422f975e6110a7c7b1511153af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 14:54:37</sys_updated_on>
+        <value>keystorepassword/</value>
+        <variable display_value="Keystore Password">b0f186eb975e6110a7c7b1511153af87</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea42422f975e6110a7c7b1511153af8d</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:54:37</sys_created_on>
+        <sys_id>aa42422f975e6110a7c7b1511153af92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 14:57:24</sys_updated_on>
+        <value>https://sandbox.api.mastercard.com/mastercom/v6/claims/200002020654/chargebacks</value>
+        <variable display_value="URI">f8f186eb975e6110a7c7b1511153af8c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea42422f975e6110a7c7b1511153af8d</document_key>
+        <order>19</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-25 14:58:22</sys_created_on>
+        <sys_id>d52386af975e6110a7c7b1511153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-25 14:58:22</sys_updated_on>
+        <value>200002020654</value>
+        <variable display_value="claimId">d5f1c6eb975e6110a7c7b1511153af05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_a8f186eb975e6110a7c7b1511153af76^id=ea42422f975e6110a7c7b1511153af8d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea42422f975e6110a7c7b1511153af8d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea42422f975e6110a7c7b1511153af8d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ffb18aab975e6110a7c7b1511153af70"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ffb18aab975e6110a7c7b1511153af70"/>
+</record_update>

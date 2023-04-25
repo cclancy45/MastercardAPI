@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0cfcc6a397de6110a7c7b1511153af3b" sys_domain="global" table="x_snc_mastercard_0_mastercom_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cfcc6a397de6110a7c7b1511153af3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_mastercard_0_mastercom_task" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">0cfcc6a397de6110a7c7b1511153af3b</sys_ui_form>
+            <sys_ui_section caption="Transaction Search Details" display_value="Transaction Search Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">295c466397de6110a7c7b1511153afa3</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:41:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cfcc6a397de6110a7c7b1511153af3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_mastercard_0_mastercom_task" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">0cfcc6a397de6110a7c7b1511153af3b</sys_ui_form>
+            <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:41:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00fcc6a397de6110a7c7b1511153af50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_mastercard_0_mastercom_task" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">0cfcc6a397de6110a7c7b1511153af3b</sys_ui_form>
+            <sys_ui_section caption="Chargeback Details" display_value="Chargeback Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3b</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:41:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_mastercard_0_mastercom_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 15:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cfcc6a397de6110a7c7b1511153af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_mastercard_0_mastercom_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0cfcc6a397de6110a7c7b1511153af3b</sys_update_name>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 15:41:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Dispute Details" name="Dispute_Details">a15c466397de6110a7c7b1511153af9f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

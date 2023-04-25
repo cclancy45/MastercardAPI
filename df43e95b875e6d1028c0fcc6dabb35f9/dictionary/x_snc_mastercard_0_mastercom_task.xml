@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab4946ab979e6110a7c7b1511153afe2" extends="sn_customerservice_task" label="Mastercom Task" max_length="40" name="x_snc_mastercard_0_mastercom_task" type="collection">
+        <element label="Acquirer Reference Number" max_length="40" name="acquirer_reference_number" type="string"/>
+        <element label="Authorization Transaction ID" max_length="100" name="authorization_transaction_id" type="string"/>
+        <element label="Chargeback Message Text" max_length="100" name="chargeback_message_text" type="string"/>
+        <element label="Chargeback Type" max_length="30" name="chargeback_type" type="string"/>
+        <element label="Claim Type" max_length="20" name="claim_type" type="string"/>
+        <element label="Clearing Transaction ID" max_length="100" name="clearing_transaction_id" type="string"/>
+        <element label="Credit Posted as Purchase" max_length="30" name="credit_posted_as_purchase" type="boolean"/>
+        <element label="Currency Conversation Assement" max_length="40" name="currency_conversation_assement" type="boolean"/>
+        <element label="Disputed Amount" max_length="20" name="disputed_amount" type="currency"/>
+        <element label="Disputed Currency" max_length="10" name="disputed_currency" type="string"/>
+        <element label="Dispute Chargeback ID" max_length="20" name="dispute_chargeback_id" type="string"/>
+        <element label="Document Indicator" max_length="20" name="document_indicator" type="boolean"/>
+        <element label="Edit Exclusion Code" max_length="30" name="edit_exclusion_code" type="string"/>
+        <element label="Installment Fee" max_length="30" name="installment_fee" type="string"/>
+        <element label="Is Partial Chargeback" max_length="30" name="is_partial_chargeback" type="boolean"/>
+        <element label="Local Tax 1IVA" max_length="20" name="local_tax_1iva" type="string"/>
+        <element label="Primary Account Number" max_length="40" name="primary_account_number" type="string"/>
+        <element label="Reason Code" max_length="30" name="reason_code" type="string"/>
+        <element label="Refund Not Received " max_length="10" name="refund_not_received" type="boolean"/>
+        <element label="Settlement Date" max_length="20" name="settlement_date" type="glide_date"/>
+        <element label="Transaction Amount From" max_length="30" name="transaction_amount_from" type="string"/>
+        <element label="Transaction Amount To" max_length="30" name="transaction_amount_to" type="string"/>
+        <element label="Transaction End Date" max_length="20" name="transaction_end_date" type="glide_date"/>
+        <element label="Transaction Start Date" max_length="40" name="transaction_start_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Chargeback Amount" max_length="20" name="u_currency_1" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Chargeback Curency" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>
