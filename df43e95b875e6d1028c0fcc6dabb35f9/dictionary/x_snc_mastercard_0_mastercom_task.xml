@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ab4946ab979e6110a7c7b1511153afe2" extends="sn_customerservice_task" label="Mastercom Task" max_length="40" name="x_snc_mastercard_0_mastercom_task" type="collection">
+    <element audit="true" db_object_id="ab4946ab979e6110a7c7b1511153afe2" extends="sn_customerservice_task" label="Mastercom Task" max_length="40" name="x_snc_mastercard_0_mastercom_task" type="collection">
         <element label="Acquirer Reference Number" max_length="40" name="acquirer_reference_number" type="string"/>
         <element label="Authorization Transaction ID" max_length="100" name="authorization_transaction_id" type="string"/>
         <element label="Chargeback Message Text" max_length="100" name="chargeback_message_text" type="string"/>

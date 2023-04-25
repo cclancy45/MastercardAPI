@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -10,13 +10,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>chargeback_creation</internal_name>
-        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Mastercom Task Record","reference":"x_snc_mastercard_0_mastercom_task","reference_display":"Mastercom Task","type":"reference","base_type":"reference","attributes":{}},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_id","label":"1 - Mastercom - Chargeback Creation➛Chargeback ID","reference_display":"Chargeback ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"80b93a73-fcbe-4236-bdec-d51655411e61"}},{"name":"Updated_1.current.u_currency_1","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Amount","reference":"","reference_display":"Chargeback Amount","type":"currency","base_type":"currency","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"u_currency_1"},{"name":"Updated_1.current.chargeback_message_text","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Message Text","reference":"","reference_display":"Chargeback Message Text","type":"string","base_type":"string","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"chargeback_message_text"}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Mastercom Task Record","reference":"x_snc_mastercard_0_mastercom_task","reference_display":"Mastercom Task","type":"reference","base_type":"reference","attributes":{}},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_id","label":"1 - Mastercom - Chargeback Creation➛Chargeback ID","reference_display":"Chargeback ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"80b93a73-fcbe-4236-bdec-d51655411e61"}},{"name":"Updated_1.current.u_currency_1","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Amount","reference":"","reference_display":"Chargeback Amount","type":"currency","base_type":"currency","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"u_currency_1"},{"name":"Updated_1.current.chargeback_message_text","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Message Text","reference":"","reference_display":"Chargeback Message Text","type":"string","base_type":"string","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"chargeback_message_text"},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_amount","label":"1 - Mastercom - Chargeback Creation➛Chargeback Amount","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a5593b4b-c17a-44b2-a1a9-4ed9a9d71ed1"}}]</label_cache>
         <master_snapshot>e20fd22b8756611028c0fcc6dabb352d</master_snapshot>
         <name>Chargeback Creation</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>32f022ef8756611028c0fcc6dabb35cf</remote_trigger_id>
+        <remote_trigger_id>6fcc8bab87da611028c0fcc6dabb35f2</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>291dd6278756611028c0fcc6dabb35b0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Chargeback Creation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name>sys_hub_flow_291dd6278756611028c0fcc6dabb35b0</sys_update_name>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:44</sys_updated_on>
+        <sys_updated_on>2023-04-25 21:03:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=291dd6278756611028c0fcc6dabb35b0"/>
@@ -57,31 +57,31 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>Chris.Clancy</sys_created_by>
-        <sys_created_on>2023-04-25 17:08:43</sys_created_on>
+        <sys_created_on>2023-04-25 20:20:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>32f022ef8756611028c0fcc6dabb35cf</sys_id>
+        <sys_id>6fcc8bab87da611028c0fcc6dabb35f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <table>x_snc_mastercard_0_mastercom_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>291dd6278756611028c0fcc6dabb35b0</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>Chris.Clancy</sys_created_by>
-        <sys_created_on>2023-04-25 17:08:43</sys_created_on>
-        <sys_id>faf022ef8756611028c0fcc6dabb35cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-04-25 20:20:12</sys_created_on>
+        <sys_id>2bcc8bab87da611028c0fcc6dabb35f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
-        <trigger display_value="">32f022ef8756611028c0fcc6dabb35cf</trigger>
+        <sys_updated_on>2023-04-25 21:03:36</sys_updated_on>
+        <trigger display_value="">6fcc8bab87da611028c0fcc6dabb35f2</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=291dd6278756611028c0fcc6dabb35b0^sys_idNOT INfaf022ef8756611028c0fcc6dabb35cf"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=291dd6278756611028c0fcc6dabb35b0^sys_idNOT IN2bcc8bab87da611028c0fcc6dabb35f3"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=291dd6278756611028c0fcc6dabb35b0^sys_idNOT IN1b6edea78756611028c0fcc6dabb35b2"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 16:57:33</sys_created_on>
         <sys_id>1b6edea78756611028c0fcc6dabb35b2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:44</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -209,14 +209,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 16:57:33</sys_created_on>
         <sys_id>036edea78756611028c0fcc6dabb35ad</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -375,14 +375,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 16:57:33</sys_created_on>
         <sys_id>836edea78756611028c0fcc6dabb35a5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -412,10 +412,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:04</sys_created_on>
         <sys_id>c80f522b8756611028c0fcc6dabb356b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:27:24</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:26:02</sys_updated_on>
         <ui_id>811c4cb8-6e46-4f12-abc1-dd8525293e9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c80f522b8756611028c0fcc6dabb356b"/>
@@ -464,11 +464,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:04</sys_created_on>
         <sys_id>840f522b8756611028c0fcc6dabb356e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:00:04</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>dispute_chargeback_id={{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}</value>
+        <value>dispute_chargeback_id={{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}^comments_and_work_notes=A chargeback has been created with the Mastercard Disputes network. 
+
+The chargeback ID is: {{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}
+The disputed amount is: {{816cbe2a-64c2-4176-8671-868c63516331.chargeback_amount}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c80f522b8756611028c0fcc6dabb356b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c80f522b8756611028c0fcc6dabb356b"/>
@@ -487,10 +490,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 16:57:33</sys_created_on>
         <sys_id>976edea78756611028c0fcc6dabb35b6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:44</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <ui_id>816cbe2a-64c2-4176-8671-868c63516331</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=976edea78756611028c0fcc6dabb35b6"/>
@@ -712,18 +715,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c70fd22b8756611028c0fcc6dabb35ba","name":"plan","plan_signature":null}}</plan>
         <plan_id>291dd6278756611028c0fcc6dabb35b0</plan_id>
-        <snapshot>d045eaeb8796611028c0fcc6dabb355e</snapshot>
+        <snapshot>412e4f2f87da611028c0fcc6dabb3506</snapshot>
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c70fd22b8756611028c0fcc6dabb35ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
-        <trigger display_value="">32f022ef8756611028c0fcc6dabb35cf</trigger>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
+        <trigger display_value="">6fcc8bab87da611028c0fcc6dabb35f2</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=291dd6278756611028c0fcc6dabb35b0"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -737,7 +740,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>chargeback_creation</internal_name>
-        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Mastercom Task Record","reference":"x_snc_mastercard_0_mastercom_task","reference_display":"Mastercom Task","type":"reference","base_type":"reference","attributes":{}},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_id","label":"1 - Mastercom - Chargeback Creation➛Chargeback ID","reference_display":"Chargeback ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"80b93a73-fcbe-4236-bdec-d51655411e61"}},{"name":"Updated_1.current.u_currency_1","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Amount","reference":"","reference_display":"Chargeback Amount","type":"currency","base_type":"currency","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"u_currency_1"},{"name":"Updated_1.current.chargeback_message_text","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Message Text","reference":"","reference_display":"Chargeback Message Text","type":"string","base_type":"string","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"chargeback_message_text"}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Mastercom Task Record","reference":"x_snc_mastercard_0_mastercom_task","reference_display":"Mastercom Task","type":"reference","base_type":"reference","attributes":{}},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_id","label":"1 - Mastercom - Chargeback Creation➛Chargeback ID","reference_display":"Chargeback ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"80b93a73-fcbe-4236-bdec-d51655411e61"}},{"name":"Updated_1.current.u_currency_1","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Amount","reference":"","reference_display":"Chargeback Amount","type":"currency","base_type":"currency","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"u_currency_1"},{"name":"Updated_1.current.chargeback_message_text","label":"Trigger - Record Updated➛Mastercom Task Record➛Chargeback Message Text","reference":"","reference_display":"Chargeback Message Text","type":"string","base_type":"string","parent_table_name":"x_snc_mastercard_0_mastercom_task","column_name":"chargeback_message_text"},{"name":"816cbe2a-64c2-4176-8671-868c63516331.chargeback_amount","label":"1 - Mastercom - Chargeback Creation➛Chargeback Amount","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a5593b4b-c17a-44b2-a1a9-4ed9a9d71ed1"}}]</label_cache>
         <master>true</master>
         <name>Chargeback Creation</name>
         <natlang/>
@@ -754,7 +757,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e20fd22b8756611028c0fcc6dabb352d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -762,7 +765,7 @@
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:42</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e20fd22b8756611028c0fcc6dabb352d"/>
@@ -777,10 +780,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:15</sys_created_on>
         <sys_id>ba0fd22b8756611028c0fcc6dabb3575</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:43</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:12</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -894,14 +897,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:14</sys_created_on>
         <sys_id>660fd22b8756611028c0fcc6dabb352f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:41</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -977,14 +980,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:15</sys_created_on>
         <sys_id>760fd22b8756611028c0fcc6dabb3547</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:41</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1097,10 +1100,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:15</sys_created_on>
         <sys_id>7e0fd22b8756611028c0fcc6dabb3573</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:42</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:10</sys_updated_on>
         <ui_id>811c4cb8-6e46-4f12-abc1-dd8525293e9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e0fd22b8756611028c0fcc6dabb3573"/>
@@ -1149,11 +1152,14 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:15</sys_created_on>
         <sys_id>360fd22b8756611028c0fcc6dabb3575</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:00:15</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:09</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>dispute_chargeback_id={{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}</value>
+        <value>dispute_chargeback_id={{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}^comments_and_work_notes=A chargeback has been created with the Mastercard Disputes network. 
+
+The chargeback ID is: {{816cbe2a-64c2-4176-8671-868c63516331.chargeback_id}}
+The disputed amount is: {{816cbe2a-64c2-4176-8671-868c63516331.chargeback_amount}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7e0fd22b8756611028c0fcc6dabb3573"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7e0fd22b8756611028c0fcc6dabb3573"/>
@@ -1172,10 +1178,10 @@
         <sys_created_by>Chris.Clancy</sys_created_by>
         <sys_created_on>2023-04-25 17:00:15</sys_created_on>
         <sys_id>320fd22b8756611028c0fcc6dabb3578</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
         <sys_updated_by>Chris.Clancy</sys_updated_by>
-        <sys_updated_on>2023-04-25 17:08:42</sys_updated_on>
+        <sys_updated_on>2023-04-25 20:20:10</sys_updated_on>
         <ui_id>816cbe2a-64c2-4176-8671-868c63516331</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=320fd22b8756611028c0fcc6dabb3578"/>
