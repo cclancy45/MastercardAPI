@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Claims Details" section_id="c0fcc6a397de6110a7c7b1511153af3a" sys_domain="global" table="x_snc_mastercard_0_mastercom_task" version="3" view="Dispute_Details">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>disputed_amount</element>
+            <element>u_string_1</element>
             <position>0</position>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:42:47</sys_created_on>
-            <sys_id>7b4dcea397de6110a7c7b1511153af4e</sys_id>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>96f25ee787d2611028c0fcc6dabb35ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:42:47</sys_updated_on>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disputed_amount</element>
+            <position>1</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>9af25ee787d2611028c0fcc6dabb35ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>disputed_currency</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:42:47</sys_created_on>
-            <sys_id>7f4dcea397de6110a7c7b1511153af4e</sys_id>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>9ef25ee787d2611028c0fcc6dabb35ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:42:47</sys_updated_on>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>claim_type</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:42:47</sys_created_on>
-            <sys_id>734dcea397de6110a7c7b1511153af4f</sys_id>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>92f25ee787d2611028c0fcc6dabb35ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:42:47</sys_updated_on>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>clearing_transaction_id</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:42:47</sys_created_on>
-            <sys_id>774dcea397de6110a7c7b1511153af4f</sys_id>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>96f25ee787d2611028c0fcc6dabb35ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:42:47</sys_updated_on>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>authorization_transaction_id</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:42:47</sys_created_on>
-            <sys_id>7b4dcea397de6110a7c7b1511153af4f</sys_id>
+            <sys_created_on>2023-04-25 16:07:31</sys_created_on>
+            <sys_id>9af25ee787d2611028c0fcc6dabb35ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claims Details" display_value="Claims Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">c0fcc6a397de6110a7c7b1511153af3a</sys_ui_section>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:42:47</sys_updated_on>
+            <sys_updated_on>2023-04-25 16:07:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

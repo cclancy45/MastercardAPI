@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="chargeback_type" label="Chargeback Type" language="en" table="x_snc_mastercard_0_mastercom_task">
+    <sys_documentation element="u_choice_1" label="Chargeback Type" language="en" table="x_snc_mastercard_0_mastercom_task">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>chargeback_type</element>
+            <element>u_choice_1</element>
             <help/>
             <hint/>
             <label>Chargeback Type</label>
@@ -10,15 +10,15 @@
             <plural>Chargeback Types</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Chris.Clancy</sys_created_by>
-            <sys_created_on>2023-04-25 15:32:15</sys_created_on>
+            <sys_created_on>2023-04-25 17:14:15</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Chargeback Type</sys_name>
             <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_mastercard_0_mastercom_task_chargeback_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_mastercard_0_mastercom_task_u_choice_1_en</sys_update_name>
             <sys_updated_by>Chris.Clancy</sys_updated_by>
-            <sys_updated_on>2023-04-25 15:32:15</sys_updated_on>
+            <sys_updated_on>2023-04-25 17:14:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Basic Details" section_id="d7f4d6ef87d2611028c0fcc6dabb357a" sys_domain="global" table="x_snc_mastercard_0_mastercom_task" version="3" view="Dispute_Details">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e077626387d6611028c0fcc6dabb35db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>1</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e477626387d6611028c0fcc6dabb35db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e877626387d6611028c0fcc6dabb35db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>3</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>ec77626387d6611028c0fcc6dabb35db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e077626387d6611028c0fcc6dabb35dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e477626387d6611028c0fcc6dabb35dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 17:36:58</sys_created_on>
+            <sys_id>e877626387d6611028c0fcc6dabb35dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Basic Details" display_value="Basic Details" name="x_snc_mastercard_0_mastercom_task" sys_domain="global" view="a15c466397de6110a7c7b1511153af9f">d7f4d6ef87d2611028c0fcc6dabb357a</sys_ui_section>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 17:36:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Basic Details</caption>
+            <header>false</header>
+            <name>x_snc_mastercard_0_mastercom_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Chris.Clancy</sys_created_by>
+            <sys_created_on>2023-04-25 16:16:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7f4d6ef87d2611028c0fcc6dabb357a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_mastercard_0_mastercom_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+            <sys_update_name>sys_ui_section_d7f4d6ef87d2611028c0fcc6dabb357a</sys_update_name>
+            <sys_updated_by>Chris.Clancy</sys_updated_by>
+            <sys_updated_on>2023-04-25 16:16:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Dispute Details" name="Dispute_Details">a15c466397de6110a7c7b1511153af9f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

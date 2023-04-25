@@ -3,7 +3,6 @@
         <element label="Acquirer Reference Number" max_length="40" name="acquirer_reference_number" type="string"/>
         <element label="Authorization Transaction ID" max_length="100" name="authorization_transaction_id" type="string"/>
         <element label="Chargeback Message Text" max_length="100" name="chargeback_message_text" type="string"/>
-        <element label="Chargeback Type" max_length="30" name="chargeback_type" type="string"/>
         <element label="Claim Type" max_length="20" name="claim_type" type="string"/>
         <element label="Clearing Transaction ID" max_length="100" name="clearing_transaction_id" type="string"/>
         <element label="Credit Posted as Purchase" max_length="30" name="credit_posted_as_purchase" type="boolean"/>
@@ -24,7 +23,15 @@
         <element label="Transaction Amount To" max_length="30" name="transaction_amount_to" type="string"/>
         <element label="Transaction End Date" max_length="20" name="transaction_end_date" type="glide_date"/>
         <element label="Transaction Start Date" max_length="40" name="transaction_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Chargeback Type" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Chargeback" sequence="0" value="chargeback"/>
+                <element inactive_on_update="false" label="Second Presentment" sequence="1" value="second presentment"/>
+            </choice>
+        </element>
         <element attributes="omit_sys_original=true" label="Chargeback Amount" max_length="20" name="u_currency_1" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Chargeback Curency" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Claim ID" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chargeback Currency" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chargeback ID" max_length="40" name="u_string_3" type="string"/>
     </element>
 </database>
