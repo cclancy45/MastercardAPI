@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ml_capability_definition_interactive">
+    <ml_capability_definition_interactive action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Process mining interactive">88fc9f4407522010028c56ee1ad3009b</capability>
+        <current_solution_version>1</current_solution_version>
+        <dataset_language>en</dataset_language>
+        <fields/>
+        <filter/>
+        <request_source>api</request_source>
+        <solution_label>process_optimization_DwWpp</solution_label>
+        <solution_name>ml_x_snc_x_snc_mastercard_0_global_process_optimization_dwwpp</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"limit":-1,"modelConditions":"6201637797dee110a7c7b1511153af94","pageCount":1,"pageSize":10000,"startTime":"2023-04-26T16:27:07.097827Z","userName":"admin","versionId":"50115aec97b4e910822e7f100153af2f"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ml_capability_definition_interactive</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 16:27:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0301a7f38796e11028c0fcc6dabb3592</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>process_optimization_DwWpp</sys_name>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>ml_capability_definition_interactive_0301a7f38796e11028c0fcc6dabb3592</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 16:27:07</sys_updated_on>
+        <table>sn_bom_credit_card_disputes_service</table>
+        <training_frequency>run_once</training_frequency>
+        <triggered_source>API</triggered_source>
+        <word_vector_corpus/>
+    </ml_capability_definition_interactive>
+</record_update>
