@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>transaction_search</internal_name>
+        <label_cache>[{"name":"{{action.acquirerrefnumber}}","label":"action➛acquirerRefNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.banknetrefnumber}}","label":"action➛bankNetRefNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.primaryaccountnum}}","label":"action➛primaryAccountNum","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transamountfrom}}","label":"action➛transAmountFrom","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transamountto}}","label":"action➛transAmountTo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transtartdate}}","label":"action➛tranStartDate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tranenddate}}","label":"action➛tranEndDate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Transaction Search</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:30:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>251aa197879e6d1028c0fcc6dabb3518</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Transaction Search</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_251aa197879e6d1028c0fcc6dabb3518</sys_update_name>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_variable_value action="DELETE" query="document_key=251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>251aa197879e6d1028c0fcc6dabb3518</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:05</sys_created_on>
+        <sys_id>5f9b6dd7879e6d1028c0fcc6dabb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">db9b6dd7879e6d1028c0fcc6dabb3504</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>251aa197879e6d1028c0fcc6dabb3518</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:05</sys_created_on>
+        <sys_id>9b9b6dd7879e6d1028c0fcc6dabb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9b9b6dd7879e6d1028c0fcc6dabb3509</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518^id=251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_hub_step_instance action="DELETE" query="action=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN0b9b2dd7879e6d1028c0fcc6dabb359a,2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</action>
+        <cid>d4f5d34b-0054-4fb1-8b81-43be316eed72</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:03</sys_created_on>
+        <sys_id>0b9b2dd7879e6d1028c0fcc6dabb359a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=0b9b2dd7879e6d1028c0fcc6dabb359a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>179b2dd7879e6d1028c0fcc6dabb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>1b9b2dd7879e6d1028c0fcc6dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>1f9b2dd7879e6d1028c0fcc6dabb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>539b2dd7879e6d1028c0fcc6dabb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>579b2dd7879e6d1028c0fcc6dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>/v6/transactions/search</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>5b9b2dd7879e6d1028c0fcc6dabb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>{
+  "acquirerRefNumber": "05436847276000293995738",
+  "primaryAccountNum": "5488888888887192",
+  "transAmountFrom": "10000",
+  "transAmountTo": "20050",
+  "tranStartDate": "2021-02-17",
+  "tranEndDate": "2021-03-17"
+}</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>63fb251b879e6d1028c0fcc6dabb3530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>939b2dd7879e6d1028c0fcc6dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>aa68e1d3879e6d1028c0fcc6dabb355f</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>979b2dd7879e6d1028c0fcc6dabb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>9f9b2dd7879e6d1028c0fcc6dabb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>9f9b2dd7879e6d1028c0fcc6dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>https://sandbox.api.mastercard.com/mastercom</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>db9b2dd7879e6d1028c0fcc6dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0b9b2dd7879e6d1028c0fcc6dabb359a</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>df9b2dd7879e6d1028c0fcc6dabb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a^id=0b9b2dd7879e6d1028c0fcc6dabb359a"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=0b9b2dd7879e6d1028c0fcc6dabb359a"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=0b9b2dd7879e6d1028c0fcc6dabb359a"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=0b9b2dd7879e6d1028c0fcc6dabb359a^sys_idNOT INcb9b2dd7879e6d1028c0fcc6dabb35ef"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=68c78ee6-4aa1-4fc0-9d7e-e3e9f726b46c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0b9b2dd7879e6d1028c0fcc6dabb359a</model>
+        <model_id>0b9b2dd7879e6d1028c0fcc6dabb359a</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>cb9b2dd7879e6d1028c0fcc6dabb35ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=0b9b2dd7879e6d1028c0fcc6dabb359a"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a^sys_idNOT IN879b2dd7879e6d1028c0fcc6dabb35f3"/>
+    <sys_documentation action="DELETE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>879b2dd7879e6d1028c0fcc6dabb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</action>
+        <cid>f1f6c033-6b06-4d44-a4c0-1db5af3ea5bd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>2bfb251b879e6d1028c0fcc6dabb3534</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2bfb251b879e6d1028c0fcc6dabb3534</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>2ffb251b879e6d1028c0fcc6dabb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"authorizationSummaryCount","children":[],"type":"string","jpath":"$.authorizationSummaryCount","previewValue":"1"},{"name":"message","children":[],"type":"string","jpath":"$.message","previewValue":"Search returned 1 records"},{"name":"authorizationSummary","children":[{"name":"authorizationSummary_object","children":[{"name":"originalMessageTypeIdentifier","children":[],"type":"string","jpath":"$.authorizationSummary[*].originalMessageTypeIdentifier","previewValue":"0110"},{"name":"banknetDate","children":[],"type":"string","jpath":"$.authorizationSummary[*].banknetDate","previewValue":"210127"},{"name":"transactionAmountUsd","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionAmountUsd","previewValue":"401.17"},{"name":"primaryAccountNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].primaryAccountNumber","previewValue":"5488888888887192"},{"name":"processingCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].processingCode","previewValue":"00"},{"name":"transactionAmountLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionAmountLocal","previewValue":"000000010000"},{"name":"authorizationDateAndTime","children":[],"type":"string","jpath":"$.authorizationSummary[*].authorizationDateAndTime","previewValue":"0127125633"},{"name":"authenticationId","children":[],"type":"string","jpath":"$.authorizationSummary[*].authenticationId","previewValue":"418443"},{"name":"cardAcceptorName","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorName","previewValue":"Amazon"},{"name":"cardAcceptorCity","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorCity","previewValue":"SAINT LOUIS"},{"name":"cardAcceptorState","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorState","previewValue":"MO"},{"name":"currencyCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].currencyCode","previewValue":"840"},{"name":"chipPresent","children":[],"type":"string","jpath":"$.authorizationSummary[*].chipPresent","previewValue":"N"},{"name":"transactionId","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionId","previewValue":"hqCnaMDqmto4wnL+BSUKSdzROqGJ7YELoKhEvluycwKNg3XTzSfaIJhFDkl9hW081B5tTqFFiAwCpcocPdB2My4t7DtSTk63VXDl1CySA8Y="},{"name":"track1","children":[],"type":"string","jpath":"$.authorizationSummary[*].track1","previewValue":"N"},{"name":"track2","children":[],"type":"string","jpath":"$.authorizationSummary[*].track2","previewValue":"Y101"},{"name":"clearingSummary","children":[{"name":"clearingSummary_object","children":[{"name":"primaryAccountNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].primaryAccountNumber","previewValue":"5488888888887192"},{"name":"transactionAmountLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].transactionAmountLocal","previewValue":"2500"},{"name":"dateAndTimeLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].dateAndTimeLocal","previewValue":"210127160100"},{"name":"cardDataInputCapability","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardDataInputCapability","previewValue":"5"},{"name":"cardholderAuthenticationCapability","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardholderAuthenticationCapability","previewValue":"9"},{"name":"cardPresent","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardPresent","previewValue":"1"},{"name":"acquirerReferenceNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].acquirerReferenceNumber","previewValue":"05413364365000000000667"},{"name":"cardAcceptorName","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardAcceptorName","previewValue":"Amazon"},{"name":"currencyCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].currencyCode","previewValue":"840"},{"name":"installmentPaymentDataBrazil","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].installmentPaymentDataBrazil","previewValue":"4070000000479500302000000015983000000000000000000000000"},{"name":"transactionId","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].transactionId","previewValue":"U7dImb1ncs24LKNU9dDpl+FHlPzyfYOOvS5PijTlO6wHH09l7aiVJ1KJHp3sWPUHH0l90J1U82DGrE3hq72ARA="},{"name":"settlementIndicator","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].settlementIndicator","previewValue":"C"},{"name":"messageReversalIndicator","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].messageReversalIndicator","previewValue":"R"}],"type":"object","jpath":"$.authorizationSummary[*].clearingSummary[*]","previewValue":""}],"type":"array.object","jpath":"$.authorizationSummary[*].clearingSummary[*]","previewValue":""}],"type":"object","jpath":"$.authorizationSummary[*]","previewValue":""}],"type":"array.object","jpath":"$.authorizationSummary[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2bfb251b879e6d1028c0fcc6dabb3534</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>effb251b879e6d1028c0fcc6dabb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+        <value>{
+  "authorizationSummaryCount": "1",
+  "message": "Search returned 1 records",
+  "authorizationSummary": [
+    {
+      "originalMessageTypeIdentifier": "0110",
+      "banknetDate": "210127",
+      "transactionAmountUsd": "401.17",
+      "primaryAccountNumber": "5488888888887192",
+      "processingCode": "00",
+      "transactionAmountLocal": "000000010000",
+      "authorizationDateAndTime": "0127125633",
+      "authenticationId": "418443",
+      "cardAcceptorName": "Amazon",
+      "cardAcceptorCity": "SAINT LOUIS",
+      "cardAcceptorState": "MO",
+      "currencyCode": "840",
+      "chipPresent": "N",
+      "transactionId": "hqCnaMDqmto4wnL+BSUKSdzROqGJ7YELoKhEvluycwKNg3XTzSfaIJhFDkl9hW081B5tTqFFiAwCpcocPdB2My4t7DtSTk63VXDl1CySA8Y=",
+      "track1": "N",
+      "track2": "Y101",
+      "clearingSummary": [
+        {
+          "primaryAccountNumber": "5488888888887192",
+          "transactionAmountLocal": "2500",
+          "dateAndTimeLocal": "210127160100",
+          "cardDataInputCapability": "5",
+          "cardholderAuthenticationCapability": "9",
+          "cardPresent": "1",
+          "acquirerReferenceNumber": "05413364365000000000667",
+          "cardAcceptorName": "Amazon",
+          "currencyCode": "840",
+          "installmentPaymentDataBrazil": "4070000000479500302000000015983000000000000000000000000",
+          "transactionId": "U7dImb1ncs24LKNU9dDpl+FHlPzyfYOOvS5PijTlO6wHH09l7aiVJ1KJHp3sWPUHH0l90J1U82DGrE3hq72ARA=",
+          "settlementIndicator": "C",
+          "messageReversalIndicator": "R"
+        }
+      ]
+    }
+  ]
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534^id=2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0^id=2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=2bfb251b879e6d1028c0fcc6dabb3534^sys_idNOT IN63fb251b879e6d1028c0fcc6dabb353b"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDe7fb251b239e6d10467d04687ea34d38,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c1d76d5b-cb89-44ca-a019-dd406cf8314c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">2bfb251b879e6d1028c0fcc6dabb3534</model>
+        <model_id>2bfb251b879e6d1028c0fcc6dabb3534</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>63fb251b879e6d1028c0fcc6dabb353b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=2bfb251b879e6d1028c0fcc6dabb3534"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534^sys_idNOT INaffb251b879e6d1028c0fcc6dabb354a"/>
+    <sys_documentation action="DELETE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:38:44</sys_created_on>
+        <sys_id>affb251b879e6d1028c0fcc6dabb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:38:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="DELETE" query="model=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN244b21d7879e6d1028c0fcc6dabb3588,284b21d7879e6d1028c0fcc6dabb358d,644b65d7879e6d1028c0fcc6dabb35d0,644ba5d7879e6d1028c0fcc6dabb3500,ac4b65d7879e6d1028c0fcc6dabb35d3,bc4ba5d7879e6d1028c0fcc6dabb3503,e44b65d7879e6d1028c0fcc6dabb35d7"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7240ef7-e5d9-4e0a-8406-ead607284493</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>acquirerrefnumber</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>acquirerRefNumber</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>244b21d7879e6d1028c0fcc6dabb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=244b21d7879e6d1028c0fcc6dabb3588"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2db43430-ea5a-46db-944a-5c04e4e595c2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>banknetrefnumber</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>bankNetRefNumber</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>284b21d7879e6d1028c0fcc6dabb358d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=284b21d7879e6d1028c0fcc6dabb358d"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=55259f4f-8ebc-4c05-bddd-ecfa6ff33d53</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>primaryaccountnum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>primaryAccountNum</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>644b65d7879e6d1028c0fcc6dabb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=644b65d7879e6d1028c0fcc6dabb35d0"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a3331e63-e497-4b41-afc0-1450d981b797</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>transtartdate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tranStartDate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>644ba5d7879e6d1028c0fcc6dabb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=644ba5d7879e6d1028c0fcc6dabb3500"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c60af00e-830c-41d1-b490-9ad692c0c83e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>transamountfrom</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>transAmountFrom</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>ac4b65d7879e6d1028c0fcc6dabb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=ac4b65d7879e6d1028c0fcc6dabb35d3"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b809a168-9a7b-4c04-a485-ad66cb156da6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tranenddate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>tranEndDate</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>bc4ba5d7879e6d1028c0fcc6dabb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=bc4ba5d7879e6d1028c0fcc6dabb3503"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=66c36b3c-b25c-442b-a6ea-fbae9ed3f8a1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>transamountto</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>transAmountTo</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>e44b65d7879e6d1028c0fcc6dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=e44b65d7879e6d1028c0fcc6dabb35d7"/>
+    <sys_hub_action_output action="DELETE" query="model=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN52cca55b879e6d1028c0fcc6dabb35e9,9b9b6dd7879e6d1028c0fcc6dabb3509,d6cca55b879e6d1028c0fcc6dabb35d7,db9b6dd7879e6d1028c0fcc6dabb3504"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eb598db1-8810-4a9d-a9fb-bd30316058e2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>clearingTransactionId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:42:11</sys_created_on>
+        <sys_id>52cca55b879e6d1028c0fcc6dabb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=52cca55b879e6d1028c0fcc6dabb35e9"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=52cca55b879e6d1028c0fcc6dabb35e9"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=12461270-65e4-457f-a0d4-4f2904788130,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>9b9b6dd7879e6d1028c0fcc6dabb3509</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=9b9b6dd7879e6d1028c0fcc6dabb3509"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=9b9b6dd7879e6d1028c0fcc6dabb3509"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=819072e8-cc82-4c7b-9679-07aef4e1b8c0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>authTransactionId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:42:11</sys_created_on>
+        <sys_id>d6cca55b879e6d1028c0fcc6dabb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=d6cca55b879e6d1028c0fcc6dabb35d7"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d6cca55b879e6d1028c0fcc6dabb35d7"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d310d4ca-7da6-4d39-b218-3092e289bbe4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</model>
+        <model_id>251aa197879e6d1028c0fcc6dabb3518</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>db9b6dd7879e6d1028c0fcc6dabb3504</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=db9b6dd7879e6d1028c0fcc6dabb3504"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=db9b6dd7879e6d1028c0fcc6dabb3504"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT INb44ba5d7879e6d1028c0fcc6dabb350b"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Transaction Search">251aa197879e6d1028c0fcc6dabb3518</action_type_id>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>b44ba5d7879e6d1028c0fcc6dabb350b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=b44ba5d7879e6d1028c0fcc6dabb350b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN244b65d7879e6d1028c0fcc6dabb35da,2c4b21d7879e6d1028c0fcc6dabb358c,684b65d7879e6d1028c0fcc6dabb35cf,a04b65d7879e6d1028c0fcc6dabb35d3,a04ba5d7879e6d1028c0fcc6dabb3503,e84b65d7879e6d1028c0fcc6dabb35d6,f84ba5d7879e6d1028c0fcc6dabb3506"/>
+    <sys_documentation action="DELETE">
+        <element>transamountto</element>
+        <help/>
+        <hint/>
+        <label>transAmountTo</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>244b65d7879e6d1028c0fcc6dabb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>acquirerrefnumber</element>
+        <help/>
+        <hint/>
+        <label>acquirerRefNumber</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>2c4b21d7879e6d1028c0fcc6dabb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>banknetrefnumber</element>
+        <help/>
+        <hint/>
+        <label>bankNetRefNumber</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>684b65d7879e6d1028c0fcc6dabb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>primaryaccountnum</element>
+        <help/>
+        <hint/>
+        <label>primaryAccountNum</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:31</sys_created_on>
+        <sys_id>a04b65d7879e6d1028c0fcc6dabb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>transtartdate</element>
+        <help/>
+        <hint/>
+        <label>tranStartDate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>a04ba5d7879e6d1028c0fcc6dabb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>transamountfrom</element>
+        <help/>
+        <hint/>
+        <label>transAmountFrom</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>e84b65d7879e6d1028c0fcc6dabb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>tranenddate</element>
+        <help/>
+        <hint/>
+        <label>tranEndDate</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:35:32</sys_created_on>
+        <sys_id>f84ba5d7879e6d1028c0fcc6dabb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:35:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN1f9b6dd7879e6d1028c0fcc6dabb350e,56cca55b879e6d1028c0fcc6dabb35e8,9ecca55b879e6d1028c0fcc6dabb35eb,9f9b6dd7879e6d1028c0fcc6dabb3508"/>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>1f9b6dd7879e6d1028c0fcc6dabb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>authTransactionId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:42:11</sys_created_on>
+        <sys_id>56cca55b879e6d1028c0fcc6dabb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>clearingTransactionId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:42:11</sys_created_on>
+        <sys_id>9ecca55b879e6d1028c0fcc6dabb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:37:04</sys_created_on>
+        <sys_id>9f9b6dd7879e6d1028c0fcc6dabb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:37:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=251aa197879e6d1028c0fcc6dabb3518"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</application>
+        <file_path/>
+        <instance_id>eaf217a9dbb61d904d2bac44d49619d6</instance_id>
+        <instance_name>sthorn2demo</instance_name>
+        <name>sys_hub_action_type_definition_251aa197879e6d1028c0fcc6dabb3518</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;transaction_search&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.acquirerrefnumber}}","label":"action➛acquirerRefNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.banknetrefnumber}}","label":"action➛bankNetRefNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.primaryaccountnum}}","label":"action➛primaryAccountNum","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transamountfrom}}","label":"action➛transAmountFrom","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transamountto}}","label":"action➛transAmountTo","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.transtartdate}}","label":"action➛tranStartDate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tranenddate}}","label":"action➛tranEndDate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Transaction Search&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:30:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Transaction Search&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_251aa197879e6d1028c0fcc6dabb3518&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:12&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;5f9b6dd7879e6d1028c0fcc6dabb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:05&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;db9b6dd7879e6d1028c0fcc6dabb3504&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:05&lt;/sys_created_on&gt;&lt;sys_id&gt;9b9b6dd7879e6d1028c0fcc6dabb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:05&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;9b9b6dd7879e6d1028c0fcc6dabb3509&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518^id=251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN0b9b2dd7879e6d1028c0fcc6dabb359a,2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/action&gt;&lt;cid&gt;d4f5d34b-0054-4fb1-8b81-43be316eed72&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;REST step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="REST"&gt;07a762fb47222200b4fad7527c9a7129&lt;/step_type&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:03&lt;/sys_created_on&gt;&lt;sys_id&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0b9b2dd7879e6d1028c0fcc6dabb359a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;179b2dd7879e6d1028c0fcc6dabb35ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Connection Timeout"&gt;7a59009bc7522010820469467ec260c0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;1b9b2dd7879e6d1028c0fcc6dabb35fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}&lt;/value&gt;&lt;variable display_value="Headers"&gt;371837f1c71003007b237f48cb9763b0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;1f9b2dd7879e6d1028c0fcc6dabb35fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Honor Duplicate Query Params"&gt;58715a1c53f22010d3a8ddeeff7b1248&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;12&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;539b2dd7879e6d1028c0fcc6dabb35ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f11ebf865f101300a09a2abd7f466652&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;579b2dd7879e6d1028c0fcc6dabb35fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;/v6/transactions/search&lt;/value&gt;&lt;variable display_value="Resource Path"&gt;3d090af03b23320057a4a2e334efc455&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;45&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;5b9b2dd7879e6d1028c0fcc6dabb35fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;{
+  "acquirerRefNumber": "05436847276000293995738",
+  "primaryAccountNum": "5488888888887192",
+  "transAmountFrom": "10000",
+  "transAmountTo": "20050",
+  "tranStartDate": "2021-02-17",
+  "tranEndDate": "2021-03-17"
+}&lt;/value&gt;&lt;variable display_value="Request Body[Text]"&gt;6c6073f1c71003007b237f48cb97633b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;63fb251b879e6d1028c0fcc6dabb3530&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value="Query Parameters"&gt;4328e2fb47222200b4fad7527c9a7164&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;939b2dd7879e6d1028c0fcc6dabb35fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;aa68e1d3879e6d1028c0fcc6dabb355f&lt;/value&gt;&lt;variable display_value="Connection Alias"&gt;262882f03b23320057a4a2e334efc4f0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;979b2dd7879e6d1028c0fcc6dabb35fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;ef751ff07301330025d71afe2ff6a7f9&lt;/value&gt;&lt;variable display_value="Retry Policy"&gt;37be397587c03300a8cc7d5e27cb0ba2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9f9b2dd7879e6d1028c0fcc6dabb35fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Honor Duplicate Headers"&gt;15288f755bd24110ab933520b881c713&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9f9b2dd7879e6d1028c0fcc6dabb35fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;https://sandbox.api.mastercard.com/mastercom&lt;/value&gt;&lt;variable display_value="Base URL"&gt;a67a8ef03b23320057a4a2e334efc472&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;13&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;db9b2dd7879e6d1028c0fcc6dabb35fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;18409d8007482000dada43c0d1021e8f&lt;/value&gt;&lt;variable display_value="Capabilities"&gt;c30a451d2f201300a09a839fb18c95b4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;df9b2dd7879e6d1028c0fcc6dabb35fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;value&gt;post&lt;/value&gt;&lt;variable display_value="HTTP Method"&gt;e85b7ebf47222200b4fad7527c9a71e3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a^id=0b9b2dd7879e6d1028c0fcc6dabb359a"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=0b9b2dd7879e6d1028c0fcc6dabb359a"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=0b9b2dd7879e6d1028c0fcc6dabb359a"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=0b9b2dd7879e6d1028c0fcc6dabb359a^sys_idNOT INcb9b2dd7879e6d1028c0fcc6dabb35ef"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=68c78ee6-4aa1-4fc0-9d7e-e3e9f726b46c&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="REST step"&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/model&gt;&lt;model_id&gt;0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;cb9b2dd7879e6d1028c0fcc6dabb35ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0b9b2dd7879e6d1028c0fcc6dabb359a"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a^sys_idNOT IN879b2dd7879e6d1028c0fcc6dabb35f3"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_0b9b2dd7879e6d1028c0fcc6dabb359a&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;879b2dd7879e6d1028c0fcc6dabb35f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/action&gt;&lt;cid&gt;f1f6c033-6b06-4d44-a4c0-1db5af3ea5bd&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;JSON Parser step&lt;/label&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="JSON Parser"&gt;502328c387523300f917e55936cb0bf0&lt;/step_type&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;2bfb251b879e6d1028c0fcc6dabb3534&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2bfb251b879e6d1028c0fcc6dabb3534&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;2ffb251b879e6d1028c0fcc6dabb354d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;value&gt;{"name":"root","children":[{"name":"authorizationSummaryCount","children":[],"type":"string","jpath":"$.authorizationSummaryCount","previewValue":"1"},{"name":"message","children":[],"type":"string","jpath":"$.message","previewValue":"Search returned 1 records"},{"name":"authorizationSummary","children":[{"name":"authorizationSummary_object","children":[{"name":"originalMessageTypeIdentifier","children":[],"type":"string","jpath":"$.authorizationSummary[*].originalMessageTypeIdentifier","previewValue":"0110"},{"name":"banknetDate","children":[],"type":"string","jpath":"$.authorizationSummary[*].banknetDate","previewValue":"210127"},{"name":"transactionAmountUsd","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionAmountUsd","previewValue":"401.17"},{"name":"primaryAccountNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].primaryAccountNumber","previewValue":"5488888888887192"},{"name":"processingCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].processingCode","previewValue":"00"},{"name":"transactionAmountLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionAmountLocal","previewValue":"000000010000"},{"name":"authorizationDateAndTime","children":[],"type":"string","jpath":"$.authorizationSummary[*].authorizationDateAndTime","previewValue":"0127125633"},{"name":"authenticationId","children":[],"type":"string","jpath":"$.authorizationSummary[*].authenticationId","previewValue":"418443"},{"name":"cardAcceptorName","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorName","previewValue":"Amazon"},{"name":"cardAcceptorCity","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorCity","previewValue":"SAINT LOUIS"},{"name":"cardAcceptorState","children":[],"type":"string","jpath":"$.authorizationSummary[*].cardAcceptorState","previewValue":"MO"},{"name":"currencyCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].currencyCode","previewValue":"840"},{"name":"chipPresent","children":[],"type":"string","jpath":"$.authorizationSummary[*].chipPresent","previewValue":"N"},{"name":"transactionId","children":[],"type":"string","jpath":"$.authorizationSummary[*].transactionId","previewValue":"hqCnaMDqmto4wnL+BSUKSdzROqGJ7YELoKhEvluycwKNg3XTzSfaIJhFDkl9hW081B5tTqFFiAwCpcocPdB2My4t7DtSTk63VXDl1CySA8Y="},{"name":"track1","children":[],"type":"string","jpath":"$.authorizationSummary[*].track1","previewValue":"N"},{"name":"track2","children":[],"type":"string","jpath":"$.authorizationSummary[*].track2","previewValue":"Y101"},{"name":"clearingSummary","children":[{"name":"clearingSummary_object","children":[{"name":"primaryAccountNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].primaryAccountNumber","previewValue":"5488888888887192"},{"name":"transactionAmountLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].transactionAmountLocal","previewValue":"2500"},{"name":"dateAndTimeLocal","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].dateAndTimeLocal","previewValue":"210127160100"},{"name":"cardDataInputCapability","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardDataInputCapability","previewValue":"5"},{"name":"cardholderAuthenticationCapability","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardholderAuthenticationCapability","previewValue":"9"},{"name":"cardPresent","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardPresent","previewValue":"1"},{"name":"acquirerReferenceNumber","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].acquirerReferenceNumber","previewValue":"05413364365000000000667"},{"name":"cardAcceptorName","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].cardAcceptorName","previewValue":"Amazon"},{"name":"currencyCode","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].currencyCode","previewValue":"840"},{"name":"installmentPaymentDataBrazil","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].installmentPaymentDataBrazil","previewValue":"4070000000479500302000000015983000000000000000000000000"},{"name":"transactionId","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].transactionId","previewValue":"U7dImb1ncs24LKNU9dDpl+FHlPzyfYOOvS5PijTlO6wHH09l7aiVJ1KJHp3sWPUHH0l90J1U82DGrE3hq72ARA="},{"name":"settlementIndicator","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].settlementIndicator","previewValue":"C"},{"name":"messageReversalIndicator","children":[],"type":"string","jpath":"$.authorizationSummary[*].clearingSummary[*].messageReversalIndicator","previewValue":"R"}],"type":"object","jpath":"$.authorizationSummary[*].clearingSummary[*]","previewValue":""}],"type":"array.object","jpath":"$.authorizationSummary[*].clearingSummary[*]","previewValue":""}],"type":"object","jpath":"$.authorizationSummary[*]","previewValue":""}],"type":"array.object","jpath":"$.authorizationSummary[*]","previewValue":""}],"type":"object","jpath":"$","previewValue":""}&lt;/value&gt;&lt;variable display_value="Target"&gt;4674240787523300f917e55936cb0b0e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2bfb251b879e6d1028c0fcc6dabb3534&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;effb251b879e6d1028c0fcc6dabb354d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;value&gt;{
+  "authorizationSummaryCount": "1",
+  "message": "Search returned 1 records",
+  "authorizationSummary": [
+    {
+      "originalMessageTypeIdentifier": "0110",
+      "banknetDate": "210127",
+      "transactionAmountUsd": "401.17",
+      "primaryAccountNumber": "5488888888887192",
+      "processingCode": "00",
+      "transactionAmountLocal": "000000010000",
+      "authorizationDateAndTime": "0127125633",
+      "authenticationId": "418443",
+      "cardAcceptorName": "Amazon",
+      "cardAcceptorCity": "SAINT LOUIS",
+      "cardAcceptorState": "MO",
+      "currencyCode": "840",
+      "chipPresent": "N",
+      "transactionId": "hqCnaMDqmto4wnL+BSUKSdzROqGJ7YELoKhEvluycwKNg3XTzSfaIJhFDkl9hW081B5tTqFFiAwCpcocPdB2My4t7DtSTk63VXDl1CySA8Y=",
+      "track1": "N",
+      "track2": "Y101",
+      "clearingSummary": [
+        {
+          "primaryAccountNumber": "5488888888887192",
+          "transactionAmountLocal": "2500",
+          "dateAndTimeLocal": "210127160100",
+          "cardDataInputCapability": "5",
+          "cardholderAuthenticationCapability": "9",
+          "cardPresent": "1",
+          "acquirerReferenceNumber": "05413364365000000000667",
+          "cardAcceptorName": "Amazon",
+          "currencyCode": "840",
+          "installmentPaymentDataBrazil": "4070000000479500302000000015983000000000000000000000000",
+          "transactionId": "U7dImb1ncs24LKNU9dDpl+FHlPzyfYOOvS5PijTlO6wHH09l7aiVJ1KJHp3sWPUHH0l90J1U82DGrE3hq72ARA=",
+          "settlementIndicator": "C",
+          "messageReversalIndicator": "R"
+        }
+      ]
+    }
+  ]
+}&lt;/value&gt;&lt;variable display_value="Sample payload"&gt;d335ac0787523300f917e55936cb0b1d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534^id=2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0^id=2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=2bfb251b879e6d1028c0fcc6dabb3534^sys_idNOT IN63fb251b879e6d1028c0fcc6dabb353b"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;co_type_name=FDe7fb251b239e6d10467d04687ea34d38,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=c1d76d5b-cb89-44ca-a019-dd406cf8314c&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;root&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;root&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="JSON Parser step"&gt;2bfb251b879e6d1028c0fcc6dabb3534&lt;/model&gt;&lt;model_id&gt;2bfb251b879e6d1028c0fcc6dabb3534&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;63fb251b879e6d1028c0fcc6dabb353b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2bfb251b879e6d1028c0fcc6dabb3534"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534^sys_idNOT INaffb251b879e6d1028c0fcc6dabb354a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;root&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;root&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_2bfb251b879e6d1028c0fcc6dabb3534&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:38:44&lt;/sys_created_on&gt;&lt;sys_id&gt;affb251b879e6d1028c0fcc6dabb354a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:38:44&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN244b21d7879e6d1028c0fcc6dabb3588,284b21d7879e6d1028c0fcc6dabb358d,644b65d7879e6d1028c0fcc6dabb35d0,644ba5d7879e6d1028c0fcc6dabb3500,ac4b65d7879e6d1028c0fcc6dabb35d3,bc4ba5d7879e6d1028c0fcc6dabb3503,e44b65d7879e6d1028c0fcc6dabb35d7"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7240ef7-e5d9-4e0a-8406-ead607284493&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;acquirerrefnumber&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;acquirerRefNumber&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;244b21d7879e6d1028c0fcc6dabb3588&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=244b21d7879e6d1028c0fcc6dabb3588"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2db43430-ea5a-46db-944a-5c04e4e595c2&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;banknetrefnumber&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;bankNetRefNumber&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;284b21d7879e6d1028c0fcc6dabb358d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=284b21d7879e6d1028c0fcc6dabb358d"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=55259f4f-8ebc-4c05-bddd-ecfa6ff33d53&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;primaryaccountnum&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;primaryAccountNum&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;644b65d7879e6d1028c0fcc6dabb35d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=644b65d7879e6d1028c0fcc6dabb35d0"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a3331e63-e497-4b41-afc0-1450d981b797&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;transtartdate&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tranStartDate&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;6&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;644ba5d7879e6d1028c0fcc6dabb3500&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=644ba5d7879e6d1028c0fcc6dabb3500"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c60af00e-830c-41d1-b490-9ad692c0c83e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;transamountfrom&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;transAmountFrom&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;ac4b65d7879e6d1028c0fcc6dabb35d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac4b65d7879e6d1028c0fcc6dabb35d3"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b809a168-9a7b-4c04-a485-ad66cb156da6&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tranenddate&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tranEndDate&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;7&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;bc4ba5d7879e6d1028c0fcc6dabb3503&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bc4ba5d7879e6d1028c0fcc6dabb3503"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=66c36b3c-b25c-442b-a6ea-fbae9ed3f8a1&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;transamountto&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;transAmountTo&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;5&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;e44b65d7879e6d1028c0fcc6dabb35d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e44b65d7879e6d1028c0fcc6dabb35d7"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN52cca55b879e6d1028c0fcc6dabb35e9,9b9b6dd7879e6d1028c0fcc6dabb3509,d6cca55b879e6d1028c0fcc6dabb35d7,db9b6dd7879e6d1028c0fcc6dabb3504"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eb598db1-8810-4a9d-a9fb-bd30316058e2&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;variable1&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;clearingTransactionId&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:42:11&lt;/sys_created_on&gt;&lt;sys_id&gt;52cca55b879e6d1028c0fcc6dabb35e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=52cca55b879e6d1028c0fcc6dabb35e9"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=52cca55b879e6d1028c0fcc6dabb35e9"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=12461270-65e4-457f-a0d4-4f2904788130,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9b9b6dd7879e6d1028c0fcc6dabb3509&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b9b6dd7879e6d1028c0fcc6dabb3509"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=9b9b6dd7879e6d1028c0fcc6dabb3509"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=819072e8-cc82-4c7b-9679-07aef4e1b8c0&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;variable&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;authTransactionId&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:42:11&lt;/sys_created_on&gt;&lt;sys_id&gt;d6cca55b879e6d1028c0fcc6dabb35d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d6cca55b879e6d1028c0fcc6dabb35d7"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d6cca55b879e6d1028c0fcc6dabb35d7"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d310d4ca-7da6-4d39-b218-3092e289bbe4&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model&gt;&lt;model_id&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;db9b6dd7879e6d1028c0fcc6dabb3504&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db9b6dd7879e6d1028c0fcc6dabb3504"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=db9b6dd7879e6d1028c0fcc6dabb3504"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=251aa197879e6d1028c0fcc6dabb3518^sys_idNOT INb44ba5d7879e6d1028c0fcc6dabb350b"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Transaction Search"&gt;251aa197879e6d1028c0fcc6dabb3518&lt;/action_type_id&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;b44ba5d7879e6d1028c0fcc6dabb350b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b44ba5d7879e6d1028c0fcc6dabb350b"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN244b65d7879e6d1028c0fcc6dabb35da,2c4b21d7879e6d1028c0fcc6dabb358c,684b65d7879e6d1028c0fcc6dabb35cf,a04b65d7879e6d1028c0fcc6dabb35d3,a04ba5d7879e6d1028c0fcc6dabb3503,e84b65d7879e6d1028c0fcc6dabb35d6,f84ba5d7879e6d1028c0fcc6dabb3506"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;transamountto&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;transAmountTo&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;244b65d7879e6d1028c0fcc6dabb35da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;acquirerrefnumber&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;acquirerRefNumber&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;2c4b21d7879e6d1028c0fcc6dabb358c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;banknetrefnumber&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;bankNetRefNumber&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;684b65d7879e6d1028c0fcc6dabb35cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;primaryaccountnum&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;primaryAccountNum&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:31&lt;/sys_created_on&gt;&lt;sys_id&gt;a04b65d7879e6d1028c0fcc6dabb35d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;transtartdate&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;tranStartDate&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;a04ba5d7879e6d1028c0fcc6dabb3503&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;transamountfrom&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;transAmountFrom&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;e84b65d7879e6d1028c0fcc6dabb35d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;tranenddate&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;tranEndDate&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:35:32&lt;/sys_created_on&gt;&lt;sys_id&gt;f84ba5d7879e6d1028c0fcc6dabb3506&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:35:32&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518^sys_idNOT IN1f9b6dd7879e6d1028c0fcc6dabb350e,56cca55b879e6d1028c0fcc6dabb35e8,9ecca55b879e6d1028c0fcc6dabb35eb,9f9b6dd7879e6d1028c0fcc6dabb3508"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;1f9b6dd7879e6d1028c0fcc6dabb350e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;variable&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;authTransactionId&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:42:11&lt;/sys_created_on&gt;&lt;sys_id&gt;56cca55b879e6d1028c0fcc6dabb35e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:11&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;variable1&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;clearingTransactionId&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:42:11&lt;/sys_created_on&gt;&lt;sys_id&gt;9ecca55b879e6d1028c0fcc6dabb35eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:42:11&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Chris.Clancy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-24 18:37:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9f9b6dd7879e6d1028c0fcc6dabb3508&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mastercard Integrations"&gt;df43e95b875e6d1028c0fcc6dabb35f9&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;Chris.Clancy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-24 18:37:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;sys_hub_action_plan action="delete_multiple" query="action_id=251aa197879e6d1028c0fcc6dabb3518"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2142779491</payload_hash>
+        <record_name>Transaction Search</record_name>
+        <reverted_from/>
+        <source>8993259b875e6d1028c0fcc6dabb35a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-04-24 18:42:13</sys_created_on>
+        <sys_id>e6cce55b879e6d1028c0fcc6dabb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b492d17e0000001</sys_recorded_at>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:42:13</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>aecce55bb89e6d10b959e374ed9c5f20</update_guid>
+        <update_guid_history>aecce55bb89e6d10b959e374ed9c5f20:2142779491,880c251b529e6d103253c7e960284c7d:-764276077,2b9b6dd7f69e6d10864cf79fe3c16d40:-304677773,8d4ba5d7059e6d1093eb461bb88a2b57:-114372100,ad1aa1972f9e6d10a813f221048d361b:-1308737641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Chris.Clancy</sys_created_by>
+        <sys_created_on>2023-05-17 14:17:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>a102beef137a45d28f8e1b7110da9d04</sys_id>
+        <sys_metadata>251aa197879e6d1028c0fcc6dabb3518</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transaction Search</sys_name>
+        <sys_package display_value="Mastercard Integrations" source="x_snc_mastercard_0">df43e95b875e6d1028c0fcc6dabb35f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mastercard Integrations">df43e95b875e6d1028c0fcc6dabb35f9</sys_scope>
+        <sys_scope_delete display_value="">9b0d7d3f33fb4bbfa58dcfb0e31410d9</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_251aa197879e6d1028c0fcc6dabb3518</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_251aa197879e6d1028c0fcc6dabb3518">e6cce55b879e6d1028c0fcc6dabb3521</sys_update_version>
+        <sys_updated_by>Chris.Clancy</sys_updated_by>
+        <sys_updated_on>2023-05-17 14:17:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
